@@ -1,0 +1,137 @@
+  > AddAccolade <AccoladeClassPath> 
+  > AddAllCharacterClassesToInventory 
+  > AddAllCosmeticsToInventory 
+  > AddAllPerksToInventory 
+  > AddBadgeToInventory <BadgeId> 
+  > AddCardToInventory <CardId> 
+  > AddChapterKeyToInventory <KeyId> 
+  > AddCharacterClassToInventory <ClassId> 
+  > AddCharacterSkinToInventory <SkinId> 
+  > AddEmoteToInventory <EmoteId> 
+  > AddPerkToInventory <PerkId> 
+  > AddScroll <ScrollPath> 
+  > AddTitleToInventory <TitleId> 
+  > AddTriumphToInventory <TriumphID> 
+  > ApplyPlayerEffect <ClassName> <EffectScale> <DurationScale> 
+  > ApplySkillEffect <AssetPath> <EffectScale> <DurationScale> 
+  > ApplyWeaponDamageEffect <ClassName> <EffectScale> <DurationScale> 
+  > ApplyWeaponEffect <ClassName> <EffectScale> <DurationScale> 
+  > BroadcastAnnouncement <AnnouncementPath> 
+  > ChooseCharacterClass <CharClassPath> 
+  > ChooseCharacterPerk <CharPerkPath> 
+  > ChooseRandomCharacterClass 
+  > ChooseRandomCharacterClass 
+  > ClearInventory 
+  > CloseCircle 
+  > CloseServer 
+  > CloseSkinSelection 
+  > CompleteAllAccolades <AccoladeClassFilterPath> 
+  > Die 
+  > DownPlayer 
+  > DropEquipment <SlotName> 
+  > DumpServerInfo 
+  > EquipToAllLoadouts <CosmeticId> 
+  > EquipToLoadout <ClassId> <CosmeticId> 
+  > ExitToMainMenu 
+  > FastCooldowns 
+  > ForceDefaultPalette <bForce> 
+  > ForceDrop <DropHeight> 
+  > GetSquad 
+  > GiveResurrection 
+  > God 
+  > JoinGame 
+  > JumpToTutorialSequence <SequenceTagStr> 
+  > LookAtCircleOrMapCenter 
+  > LookAtRandomHeading 
+  > MarkAllItemsAsNew <bNew> 
+  > MarkBadgeAsNew <AssetId> <bNew> 
+  > MarkCardAsNew <AssetId> <bNew> 
+  > MarkCharacterSkinAsNew <AssetId> <bNew> 
+  > MarkClassAsNew <AssetId> <bNew> 
+  > MarkEmoteAsNew <AssetId> <bNew> 
+  > MarkPerkAsNew <AssetId> <bNew> 
+  > MarkTitleAsNew <AssetId> <bNew> 
+  > OpenBagel 
+  > OpenPostPurchaseMomentForAfterglow <AssetId> 
+  > OpenPostPurchaseMomentForArtifact <AssetId> 
+  > OpenPostPurchaseMomentForCloudburst <AssetId> 
+  > OpenPostPurchaseMomentForEmote <AssetId> 
+  > OpenPostPurchaseMomentForOutfit <AssetId> 
+  > OpenPostPurchaseMomentForTriumph <AssetId> 
+  > OpenServer 
+  > OpenSkinSelection 
+  > PlayCosmeticEmote <AssetId> 
+  > PlayCosmeticTriumph <AssetId> 
+  > PlayMatchEndTriumph <RawSkinId> <RawAnimId> 
+  > PrintPerks <ShowDefaults> 
+  > RandomizeBotCosmetics 
+  > RemoveAllCharacterClassesFromInventory 
+  > RemoveAllPerksFromInventory 
+  > RemoveBadgeFromInventory <BadgeId> 
+  > RemoveCardFromInventory <CardId> 
+  > RemoveChapterKeyFromInventory <KeyId> 
+  > RemoveCharacterClassFromInventory <ClassId> 
+  > RemoveCharacterSkinFromInventory <SkinId> 
+  > RemovePerkFromInventory <PerkId> 
+  > RemovePlayerEffect <ClassName> 
+  > RemoveWeaponDamageEffect <ClassName> 
+  > RemoveWeaponEffect <ClassName> 
+  > ResetCurrentTutorialSequence 
+  > ResetOOMTutorials 
+  > ResetPerks 
+  > ResumeCountdown 
+  > RevealNearbyMatchBots 
+  > RevivePlayer 
+  > RunCaptureCheats 
+  > SetArena <ArenaTag> 
+  > SetCosmeticArtifact <AssetId> 
+  > SetCosmeticDropTrail <AssetId> 
+  > SetCosmeticRunTrail <AssetId> 
+  > SetCosmeticSkin <AssetId> 
+  > SetCountdownTimerVisibility <bVisible> 
+  > SetDisplayName <DisplayName> 
+  > SetGameMode <RawMode> <Variant> 
+  > SetGameModeProperty <PropertyName> <PropertyValue> 
+  > SetJoinFilter <Filter> 
+  > SetMatchBotDifficulty <Difficulty> 
+  > SetNoMatchBotAggro <bShouldHide> 
+  > SetNumMatchBots <NumBots> 
+  > SetPerk <ClassAssetIdStr> <PerkAssetIdStr> 
+  > SetRegion <Region> 
+  > SetSquad <SquadID> 
+  > SetTutorialState <bHasCompeleted> <HighestCompletedSequence> <HighestCompletedStepIdx> 
+  > ShowMatchEndLevel 
+  > ShowMatchEndSquad <RawSkinId> 
+  > ShowPostGameStats <CharClassPath> <AccoladesToShow> <QuestsToComplete> <XPGained> 
+  > ShowSurvey 
+  > ShowToastNotification <ToastType> <PlayerName> 
+  > ShutdownServer 
+  > SkipFTUEIntro 
+  > SkipTutorial 
+  > SkipTutorial 
+  > SpawnAmbushOnMe <EncounterClassStr> <SpawnerClassStr> <SpawnerCount> <DelayBetweenSpawners> <bShowDebug> 
+  > SpawnAmulet <ClassName> <Amount> 
+  > SpawnBelt <ClassName> <Amount> 
+  > SpawnBoot <ClassName> <Amount> 
+  > SpawnGauntlet <ClassName> <Amount> 
+  > SpawnMatchBot <ClassName> <DifficultyLevel> 
+  > SpawnPotion <ClassName> <Amount> 
+  > SpawnRune <ClassName> <Amount> 
+  > SpawnScriptedUsable <ClassName> 
+  > SpawnScroll <ClassName> 
+  > Spectate 
+  > StartMatch 
+  > StopCircles 
+  > StopCountdown 
+  > SuperSpeed <SpeedMultiplier> 
+  > TeleportToMatchBot <BotName> 
+  > TeleportTowardsCircleOrMapCenter <Distance> 
+  > ToggleBoons <Enable> 
+  > ToggleDebugCamera 
+  > ToggleFog 
+  > ToggleNPCs <Enable> 
+  > ToggleScene <Name> 
+  > ToggleUI 
+  > ToggleZones <Enable> 
+  > UpgradeCharacterPerk <Category> 
+  > WipeTutorialState 

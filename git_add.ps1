@@ -41,19 +41,21 @@ function Commit-Files {
 # Convert $maxSize to bytes for comparison
 $maxSizeInBytes = [math]::Floor($maxSize / 1MB * 1024 * 1024)
 
-# Get all files in the directory and subdirectories
-$files = Get-ChildItem -Path $directory -File -Recurse
+# Get all untracked files in the directory and subdirectories
+$untrackedFiles = git ls-files --others --exclude-standard
 
-# Total number of files for progress calculation
-$totalFiles = $files.Count
+# Total number of untracked files for progress calculation
+$totalFiles = $untrackedFiles.Count
 $currentFileIndex = 0
 
-foreach ($file in $files) {
+foreach ($file in $untrackedFiles) {
     $currentFileIndex++
     Write-Progress -Activity "Processing files" -Status "Processing $currentFileIndex of $totalFiles" -PercentComplete (($currentFileIndex / $totalFiles) * 100)
-    $fileSize = $file.Length
+    
+    $fileInfo = Get-Item -Path $file
+    $fileSize = $fileInfo.Length
     $totalSize += $fileSize
-    $filesToAdd += $file.FullName
+    $filesToAdd += $file
 
     if ($totalSize -ge $maxSizeInBytes) {
         Commit-Files -files $filesToAdd -commitNumber $commitCount
